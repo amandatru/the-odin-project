@@ -19,9 +19,7 @@ var fibonacci = function(num1, num2) { //fibonacci sequence function
                            //until the range of 4 million is reached
   fibonacci(num2, next);
  } 
-  if (next > 4000000) { //when 4 million is reached, sum is returned and program breaks out of the recursive call
-    return evenNumSum;
-  }
+    return evenNumSum; //when 4 mil is reached, breaks out of recursive call and sum is returned
 }
 
 var sum = fibonacci(num1, num2);
